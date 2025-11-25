@@ -22,7 +22,7 @@ def add_book(book: dict):
     global counter 
     new_book = { 
         "id": counter, 
-                "title": book.get("title"), 
+        "title": book.get("title"), 
         "author": book.get("author") 
     } 
     books.append(new_book) 
